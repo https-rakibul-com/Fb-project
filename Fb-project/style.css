@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----button global style-----*/
+.button-style{
+    padding: 20px 25px;
+    background-color:orange;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 110px;
+    color: white;
+    margin-top: 50px;
+    width: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+/*------button style end-----*/
+
+/*---header style start---*/
+
+.header-section{
+    height: 600px;
+    padding: 80px 120px;
+
+}
+.header-section .left h1 span{
+    color: orange;
+    font-size: 80px;
+}
+.header-section .left{
+    float: left;
+    width: 50%;
+}
+.header-section .left h1{
+    font-size: 80px;
+}
+.header-section .left h1 p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    
+}
+
+.header-section .right{
+    float: right;
+    width: 50%;
+}
+.header-section .right img{
+    width: 90%;
+    border-radius: 50%;
+    
+}
+/*---header style end---*/
+
+/*---Breakfast start---*/
+.breakfast-section{
+    height: 600px;
+    padding: 70px 120px;
+    background-color: cyan;
+}
+.breakfast-container{
+    float: left;
+    width:30%;
+}
+.breakfast-container .card{
+    height: 40f0px;
+    width: 370px;
+    background-color: white;
+    padding: 40px;
+    margin: 50px 0 0 50px;
+    position: relative;
+
+}
+.card h2{
+    font-size: 35px;
+}
+.card p{
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.breakfast-image{
+    width:70%;
+    float: right;
+}
+.breakfast-image img{
+    width:100%;
+    height:490px;
+}
+/*---Breakfast end---*/
+/*---Fast Food Start---*/
+.fast-food{
+    background-image: url(/image/fastfood.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.fast_food_content{
+    padding: 200px 120px;
+}
+.fast_food_content p{
+    font-size: 34px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.fast_food_content h1{
+    font-size: 120px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*---Fast food end---*/
+
+/*---Delivery Start---*/
+.delivery{
+    height:600px;
+    width:100%;
+    padding:80px 120px;
+}
+.delivery .delivery_image{
+    width:50%;
+    float: left;
+    text-align: right;
+
+}
+.delivery .delivery_image img{
+    width: 95%;
+    border-radius: 50%;
+}
+.delivery_card_containt{
+    width:50%;
+    height: 500px;
+    float: right;
+    background-color: gray;
+}
+.delivery_card{
+    padding:80px;
+}
+.delivery_card h2{
+    font-size: 42px;
+}
+.delivery_card p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+/*---Delivary End---*/
+/*---Submit Start---*/
+.submit-section{
+    height: 650px;
+    padding: 80px 120px;
+    width: 100%;
+    background-color: rgb(10, 9, 9);
+}
+.style-photo{
+    width: 50%;
+    height:550px;
+    float: left;
+}
+.style-photo img{
+    height: 90%;
+    width: 90%;
+    
+}
+.submit-head{
+    float: right;
+    text-align: center;
+    margin-top:7%;
+    margin-right: 50px;
+
+}
+.submit-head h1{
+    font-size: 70px;
+    color: white;
+    
+}
+.submit-head p{
+    font-size: 30px;
+     color: white;
+}
+.input-section{
+    margin-top: 20px;
+   
+}
+.input-section .text{
+    border: none;
+    padding: 10px;
+    width: 300px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.input-section .submit{
+    height: 38px;
+    width: 120px;
+    background-color: orange;
+    border: none;
+}
+.submit-footer{
+    margin-top: 30px;
+}
+.submit-footer h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.submit-footer ol{
+    color: white;
+}
+
+/*---Submit End---*/
+
+# Fb-project
